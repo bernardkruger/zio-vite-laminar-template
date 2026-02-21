@@ -92,7 +92,7 @@ lazy val server = project
       case PathList("scala", "annotation", "unroll.tasty") => MergeStrategy.first
       case PathList("scala", "annotation", "unroll.class") => MergeStrategy.first
       case x => (assembly / assemblyMergeStrategy).value.apply(x)
-    }
+    }   // this works for MAC, for Windows you may need to adjust the strategy to avoid "Duplicate entry" errors
   )
   .dependsOn(shared.jvm)
 

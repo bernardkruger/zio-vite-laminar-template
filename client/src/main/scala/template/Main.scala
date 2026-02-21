@@ -22,8 +22,9 @@ object Main:
       render(
         rootNode,
         div(
-          h2("Laminar mounted successfully!  Yaaaaah"),
-          p("server time"),
+          cls := "mt-4",
+          h2("Laminar mounted successfully!"),
+          p(cls := "h5", "Server Time"),
           p(child.text <-- timeVar.signal),
 
           button(
