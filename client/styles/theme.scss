@@ -1,0 +1,21 @@
+$primary: #007bff;
+$success: #28a745;
+$font-family-sans-serif: 'Segoe UI', Arial, sans-serif;
+$border-radius: 0.6rem;
+
+@import 'bootstrap/scss/bootstrap';
+
+.custom-hero {
+  background: linear-gradient(90deg, $primary, darken($primary, 20%));
+  color: white;
+  padding: 2rem;
+  border-radius: $border-radius;
+}
+
+.scss-box {
+  border: 2px solid $success;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: $border-radius;
+  background-color: lighten($primary, 30%);
+}
