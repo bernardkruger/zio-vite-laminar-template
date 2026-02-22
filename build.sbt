@@ -117,6 +117,7 @@ lazy val client = project
 
 
 /* -------------------- BUILDING AND PACKAGING -------------------- */
+// This is not crucial for transferring/converting to a vite app
 import scala.sys.process.*
 import java.io.File
 

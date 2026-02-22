@@ -20,7 +20,7 @@ export function initChart() {
       {
         name: "Sales",
         type: "bar",
-        data: [5, 20, 36, 10, 10, 20],
+        data: [5, 20, 36, 20, 15, 30],
       },
     ],
   }
